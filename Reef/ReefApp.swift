@@ -43,7 +43,7 @@ struct ReefApp: App {
                 .environmentObject(sparkleConnector)
         } label: {
             Image("menu_placeholder")
-            // Image(systemName: "fish.fill")
+                .renderingMode(.template)
         }
     }
 }
